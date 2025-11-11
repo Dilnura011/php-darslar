@@ -1,10 +1,3 @@
-<?php 
-$ism = "User";
-$matn = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat, pariatur sed aliquam est numquam accusamus consequatur quibusdam modi soluta hic iste. Porro facere hic quae sequi itaque quaerat, sed maiores deserunt labore esse excepturi expedita consectetur, ipsa in fuga soluta! Necessitatibus, magnam et reiciendis tempora consectetur suscipit nulla quos!";
-$email = "*@gmail.com";
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,15 +70,15 @@ button:hover {
 <body>
     <div class="form-container">
         <h2>Aloqa Formasi</h2>
-        <form action="submit.php" method="POST">
+        <form action="data.php" method="POST">
             <label for="name">Ism va familiya:</label>
-            <input type="text" id="name" value=<?=$ism?> name="name" required>
+            <input type="text" id="name" name="name" required>
 
             <label for="email">Elektron pochta:</label>
-            <input type="email" id="email" value=<?= $email?> name="email" required>
+            <input type="email" id="email" name="email" required>
 
             <label for="message">Xabar:</label>
-            <textarea id="message" name="message" rows="5" required><?= $matn?></textarea>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
             <button type="submit">Yuborish</button>
         </form>
