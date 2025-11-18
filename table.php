@@ -1,13 +1,13 @@
 <?php
 $talabalar = [
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
-    ["ism" => "Shamshod", "familiya" => "Abdullayev", "yoshi" => 16, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
+    ["ism" => "Dilnura", "familiya" => "Jumaniyozova", "yoshi" => 15, "bahosi" => 5],
 ];
 
 ?>
