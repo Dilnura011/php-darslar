@@ -2,9 +2,20 @@
 
 include "Admin/User.php";
 include "Mijoz/User.php";
+include "Admin/Car.php";
 
-$admin = new Admin\User\User();
+use Admin\User\User as AdminUser;
+use Mijoz\User\User as MijozUser;
+use Admin\Car\Car;
+
+$admin = new AdminUser();
 echo $admin->info();
 
-$user = new Mijoz\User\User();
+$user = new MijozUser();
 echo $user->info();
+
+$admin1 = new AdminUser();
+echo $admin1->info();
+
+$car = new Car();
+echo $car->info();

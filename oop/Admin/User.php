@@ -2,6 +2,6 @@
 namespace Admin\User;
 class User {
     public function info(){
-        return "Bu Admin classi ichidagi User classi!<br>";
+        return "Bu Admin papkadasidagi User classi!<br>";
     }
 }
